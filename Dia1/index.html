@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 1</title>
+</head>
+<body>
+    <h1>Atividade 1</h1>
+
+    <h2>Formulário de Cadastro</h2>
+    <form action="/submit-form" method="post">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="password">Senha:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="sexo">Sexo:</label>
+        <select id="sexo" name="sexo">
+            <option value="m">Masculino</option>
+            <option value="f">Feminino</option>
+        </select><br><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <h2>Tabela</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>João Pedro</td>
+                <td>joao.pedro@unidavi.edu.br</td>
+            </tr>
+            <tr>
+                <td>Aruen Sabel</td>
+                <td>aruen.sabel@unidavi.edu.br</td>
+            </tr>
+            <tr>
+                <td>Odilon Voss</td>   
+                <td>odilon.voss@unidavi.edu.br</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Lista de Itens</h2>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ul>
+</body>
+</html>
