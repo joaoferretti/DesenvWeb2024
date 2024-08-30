@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilo.css" class="rel">
+    <script src="js/comportamento.js"></script>
+</head>
+<body>
+    <table>
+        <tr>
+            <th colspan="4"><input class="button-44" type="text" name="calculo" id="calculo" disabled></th>
+        </tr>
+        <tr>
+            <td><button class="button-44" role="button" id="numero7" onclick="onClickAdicionar(7)">7</button></td>
+            <td><button class="button-44" role="button" id="numero8" onclick="onClickAdicionar(8)">8</button></td>
+            <td><button class="button-44" role="button" id="numero9" onclick="onClickAdicionar(9)">9</button></td>
+            <td><button class="button-44" role="button" id="sum" onclick="onClickAdicionar('+')">+</button></td>
+        </tr>
+        <tr>
+            <td><button class="button-44" role="button" id="numero4" onclick="onClickAdicionar(4)">4</button></td>
+            <td><button class="button-44" role="button" id="numero5" onclick="onClickAdicionar(5)">5</button></td>
+            <td><button class="button-44" role="button" id="numero6" onclick="onClickAdicionar(6)">6</button></td>
+            <td><button class="button-44" role="button" id="menos" onclick="onClickAdicionar('-')">-</button></td>
+        </tr>
+        <tr>
+            <td><button class="button-44" role="button" id="numero1" onclick="onClickAdicionar(1)">1</button></td>
+            <td><button class="button-44" role="button" id="numero2" onclick="onClickAdicionar(2)">2</button></td>
+            <td><button class="button-44" role="button" id="numero3" onclick="onClickAdicionar(3)">3</button></td>
+            <td><button class="button-44" role="button" id="div" onclick="onClickAdicionar('/')">/</button></td>
+        </tr>
+        <tr>
+            <td colspan="2"><button class="button-44" role="button" id="numero0" onclick="onClickAdicionar(0)">0</button></td>
+            <td><button class="button-44" role="button" id="ponto" onclick="onClickAdicionar(9)">.</button></td>
+            <td><button class="button-44" role="button" id="mult" onclick="onClickAdicionar('*')">*</button></td>
+        </tr>
+        <tr>
+            <td><button class="button-44" role="button" id="apagar" onclick="onClickApagar(9)">Apagar</button></td>
+            <td><button class="button-44" role="button" id="limpar" onclick="onClickLimpar(9)">Limpar</button></td>
+            <td colspan="2"><button class="button-44" role="button" type="submit" id="calcular" onclick="onClickCalcular()">Calcular</button></td>
+        </tr>
+    </table>
+</body>
+</html>
